@@ -145,6 +145,18 @@ document.addEventListener('DOMContentLoaded', function () {
          name: '🧊 FROZEN',
          badgeText: 'Fresh Frozen',
          products: []
+       },
+       {
+         id: 'WAX',
+         name: '🍯 WAX',
+         badgeText: 'Exctraction',
+         products: []
+       },
+       {
+         id: 'PIATELLA',
+         name: '🧸 PIATELLA',
+         badgeText: 'Piatella',
+         products: []
        }
      ]
    },
@@ -201,10 +213,11 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoAM.mov',
                             description: '',
                             tarifs: [
-                                { weight: '2,5G', price: 20.00 },
-                                { weight: '5G', price: 40.00 },
-                                { weight: '7G', price: 50.00 },
-                                { weight: '10G', price: 70.00 },
+                                { weight: '3,5G', price: 20.00 },
+                                { weight: '7G', price: 40.00 },
+                                { weight: '10G', price: 60.00 },
+                                { weight: '25G', price: 130.00 },
+                                { weight: '50G', price: 200.00 },
                             ]
                         }
          ]
@@ -225,7 +238,13 @@ document.addEventListener('DOMContentLoaded', function () {
      type: 'Zip',
      quality: '⚡ ZIP',
      image: 'CategZip.png',
-     products: [
+
+      farms: [
+       {
+         id: 'PAVER',
+         name: '🧱 PAVER',
+         badgeText: 'Pure',
+        products: [
          {
                             id: 'Caroline ☁️',
                             // flag: '🇪🇸',
@@ -243,6 +262,14 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10G', price: 450.00 },
                             ]
                         },
+         ]
+       },
+       {
+         id: 'OLIVE',
+         name: '🫒 OLIVE',
+         badgeText: 'Olivette',
+        products: []
+       },
      ]
    }
  ];
