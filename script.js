@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             promoEligible: true,
                             type: 'Weed',
                             image: 'ProductLM.png',
-                            video: 'VideoLM.mp4',
+                            video: 'VideoLM.mov',
                             description: '',
                             tarifs: [
                                 { weight: '5G', price: 30.00 },
