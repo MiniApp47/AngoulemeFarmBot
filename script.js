@@ -189,7 +189,25 @@ document.addEventListener('DOMContentLoaded', function () {
          id: 'AMNESIA',
          name: '🌿 AMNESIA',
          badgeText: 'Amnesia',
-         products: []
+         products: [
+              {
+                            id: 'AMNESIA',
+                            // flag: '🇪🇸',
+                            name: 'AMNESIA 🧠',
+                            farm: 'NoFarm 🏡',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductAM.png',
+                            video: 'VideoAM.mov',
+                            description: '',
+                            tarifs: [
+                                { weight: '2,5G', price: 20.00 },
+                                { weight: '5G', price: 40.00 },
+                                { weight: '7G', price: 50.00 },
+                                { weight: '10G', price: 70.00 },
+                            ]
+                        }
+         ]
        }
      ]
    },
