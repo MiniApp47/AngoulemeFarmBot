@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         },
          ]
-       },
+       }, 
        {
          id: 'FILTRER',
          name: '💎 FILTRER',
@@ -233,17 +233,14 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: 'NoFarm 🏡',
                             promoEligible: true,
                             type: 'Weed',
-                            image: 'ProductY.png',
-                            video: 'VideoY.mov',
+                            image: 'ProductC.png',
+                            video: 'VideoC.mp4',
                             description: '',
                             tarifs: [
-                                { weight: '1G', price: 20.00 },
-                                { weight: '3,5G', price: 40.00 },
-                                { weight: '7G', price: 80.00 },
-                                { weight: '10G', price: 120.00 },
-                                { weight: '25G', price: 240.00 },
-                                { weight: '50G', price: 400.00 },
-                                { weight: '100G', price: 750.00 },
+                                { weight: '1G', price: 60.00 },
+                                { weight: '2G', price: 120.00 },
+                                { weight: '5G', price: 250.00 },
+                                { weight: '10G', price: 450.00 },
                             ]
                         },
      ]
