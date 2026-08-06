@@ -36,7 +36,26 @@ document.addEventListener('DOMContentLoaded', function () {
          id: 'JAUNE',
          name: '🟡 JAUNE',
          badgeText: 'Hash jaune',
-         products: []
+         products: [
+            {
+                            id: 'La mousse',
+                            // flag: '🇪🇸',
+                            name: 'La mousse 🧽',
+                            farm: 'NoFarm 🏡',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductLM.png',
+                            video: 'VideoLM.mp4',
+                            description: '',
+                            tarifs: [
+                                { weight: '5G', price: 30.00 },
+                                { weight: '10G', price: 50.00 },
+                                { weight: '25G', price: 120.00 },
+                                { weight: '50G', price: 200.00 },
+                                { weight: '100G', price: 350.00 },
+                            ]
+                        },
+         ]
        },
        {
          id: 'FILTRER',
@@ -54,13 +73,12 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoP.mp4',
                             description: '',
                             tarifs: [
-                                { weight: '1G', price: 20.00 },
-                                { weight: '3,5G', price: 40.00 },
-                                { weight: '7G', price: 80.00 },
-                                { weight: '10G', price: 120.00 },
-                                { weight: '25G', price: 240.00 },
-                                { weight: '50G', price: 400.00 },
-                                { weight: '100G', price: 750.00 },
+                                { weight: '5G', price: 40.00 },
+                                { weight: '8G', price: 60.00 },
+                                { weight: '10G', price: 70.00 },
+                                { weight: '25G', price: 150.00 },
+                                { weight: '50G', price: 250.00 },
+                                { weight: '100G', price: 500.00 },
                             ]
                         },
                     {
@@ -74,13 +92,12 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoDK.mov',
                             description: '',
                             tarifs: [
-                                { weight: '1G', price: 20.00 },
-                                { weight: '3,5G', price: 40.00 },
-                                { weight: '7G', price: 80.00 },
-                                { weight: '10G', price: 120.00 },
-                                { weight: '25G', price: 240.00 },
-                                { weight: '50G', price: 400.00 },
-                                { weight: '100G', price: 750.00 },
+                                { weight: '5G', price: 40.00 },
+                                { weight: '8G', price: 60.00 },
+                                { weight: '10G', price: 70.00 },
+                                { weight: '25G', price: 150.00 },
+                                { weight: '50G', price: 250.00 },
+                                { weight: '100G', price: 500.00 },
                             ]
                         },
                     {
@@ -94,13 +111,12 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoY.mov',
                             description: '',
                             tarifs: [
-                                { weight: '1G', price: 20.00 },
-                                { weight: '3,5G', price: 40.00 },
-                                { weight: '7G', price: 80.00 },
-                                { weight: '10G', price: 120.00 },
-                                { weight: '25G', price: 240.00 },
-                                { weight: '50G', price: 400.00 },
-                                { weight: '100G', price: 750.00 },
+                                { weight: '5G', price: 40.00 },
+                                { weight: '8G', price: 60.00 },
+                                { weight: '10G', price: 70.00 },
+                                { weight: '25G', price: 150.00 },
+                                { weight: '50G', price: 250.00 },
+                                { weight: '100G', price: 500.00 },
                             ]
                         },
                     {
@@ -114,13 +130,12 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoICC.mov',
                             description: '',
                             tarifs: [
-                                { weight: '1G', price: 20.00 },
-                                { weight: '3,5G', price: 40.00 },
-                                { weight: '7G', price: 80.00 },
-                                { weight: '10G', price: 120.00 },
-                                { weight: '25G', price: 240.00 },
-                                { weight: '50G', price: 400.00 },
-                                { weight: '100G', price: 750.00 },
+                                { weight: '5G', price: 40.00 },
+                                { weight: '8G', price: 60.00 },
+                                { weight: '10G', price: 70.00 },
+                                { weight: '25G', price: 150.00 },
+                                { weight: '50G', price: 250.00 },
+                                { weight: '100G', price: 500.00 },
                             ]
                         }
                     ]
@@ -144,7 +159,25 @@ document.addEventListener('DOMContentLoaded', function () {
          id: 'CALI_ESPAGNOL',
          name: '🇪🇸 CALI ESPAGNOL',
          badgeText: 'Cali Espagne',
-         products: []
+         products: [
+            {
+                            id: 'LEMON CHERRY',
+                            // flag: '🇪🇸',
+                            name: 'LEMON CHERRY 🍋',
+                            farm: 'NoFarm 🏡',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductLC.png',
+                            video: 'VideoLC.mov',
+                            description: '',
+                            tarifs: [
+                                { weight: '2,5G', price: 20.00 },
+                                { weight: '5G', price: 40.00 },
+                                { weight: '7G', price: 50.00 },
+                                { weight: '10G', price: 70.00 },
+                            ]
+                        }
+         ]
        },
        {
          id: 'CALI_US',
@@ -174,7 +207,28 @@ document.addEventListener('DOMContentLoaded', function () {
      type: 'Zip',
      quality: '⚡ ZIP',
      image: 'CategZip.png',
-     products: []
+     products: [
+         {
+                            id: 'Caroline ☁️',
+                            // flag: '🇪🇸',
+                            name: 'Caroline ☁️',
+                            farm: 'NoFarm 🏡',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductY.png',
+                            video: 'VideoY.mov',
+                            description: '',
+                            tarifs: [
+                                { weight: '1G', price: 20.00 },
+                                { weight: '3,5G', price: 40.00 },
+                                { weight: '7G', price: 80.00 },
+                                { weight: '10G', price: 120.00 },
+                                { weight: '25G', price: 240.00 },
+                                { weight: '50G', price: 400.00 },
+                                { weight: '100G', price: 750.00 },
+                            ]
+                        },
+     ]
    }
  ];
 
